@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: .2s linear;
     font-family: "Inter", sans-serif;
 }
 /* home-page-style-start */
@@ -147,6 +148,63 @@ main .center-text .center-images .center-img-2 img{
     width: 430px;
     height: 370px;
 }
+main .image-updater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+    background: rgb(38, 255, 183);
+}
+main .image-updater .a-links a{
+    display: block;
+    padding: 0px 190px 30px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    font-size: 19.50px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.609);
+    font-weight: 600;
+    cursor: pointer;
+}
+main .image-updater .a-links a:hover{
+    color: rgb(255, 246, 246);
+}
+main .image-updater .a-links a img{
+    margin: 30px 10px -5px 0;
+}
+main .image-updater .change-image img{
+    width: 550px;
+    height: 450px;
+}
+main .second-text h2{
+    text-align: center;
+    width: 600px;
+    margin: 30px auto;
+    color: rgba(0, 0, 0, 0.589);
+}
+.second-text p{
+    text-align: center;
+    font-size: 18.50px;
+    font-weight: 300;
+    padding: 25px  0;
+}
+main .second-text .img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    gap: 120px;
+}
+main .second-text .img-section .img-container {
+    width: 300px;
+}
+main .second-text .img-section .img-container h3{
+    color: rgba(0, 0, 0, 0.789);
+    padding: 20px 0;
+}
+main .second-text .img-section .img-container span{
+    color: rgba(0, 0, 0, 0.589);
+}
 
 
 
@@ -207,3 +265,6 @@ header .login-nav .login-logo{
     font-weight: 400;
 }
 /* login-page-styling-end */
+
+
+
