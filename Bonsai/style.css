@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* home-page-style-start */
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+nav .logo img{
+    width: 150px;
+    height: 31.05px;
+}
+nav .links{
+    display: flex;
+    gap: 40px;
+}
+nav .links a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-weight: 300;
+    font-size: 16.50px;
+}
+nav .links a .dropdown{
+    display: none;
+    width: 350px;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px 30px;
+    left: -100px;
+    top: 30px;
+    z-index: 999;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav .links a .dropdown hr{
+    margin:8px 1px;
+}
+nav .links a .dropdown h4{
+    padding: 20px 0 10px 0;
+}
+nav .links a:hover .dropdown{
+    display: block;
+}
+nav .buttons .btn-1{
+    padding: 8px 25px;
+    border: 2px solid rgb(27, 198, 141);
+    color: rgb(27, 198, 141);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav .buttons .btn-2{
+    padding: 10px 25px;
+    border: 2px solid rgb(6, 160, 109);
+    background-color: rgb(6, 160, 109);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin: 0 5px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+main .hero-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 120px 20px 0 130px;
+}
+main .hero-section .image{
+    width: 690px;
+    height: 580px;
+}
+main .hero-section .content{
+    width: 480px;
+}
+main .hero-section .content h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+main .hero-section .content p{
+    font-size: 19.50px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+main .hero-section .image img{
+    width: 100%;
+    height: auto;
+}
+main  .hero-section .btn-email{
+    position: relative;
+}
+main .hero-section .btn-email input{
+    padding: 20px;
+    width: 390px;
+    border: 2px solid rgb(6, 160, 109);
+    border-radius: 6px;
+}
+main .hero-section .btn-email button{
+    position: absolute;
+    left: 270px;
+    padding: 20px;
+    border: 2px solid rgb(0, 175, 117);
+    background-color: rgb(0, 183, 122);
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+main .center-text{
+    margin-top: 100px;
+}
+main .center-text h2, span{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+main .center-text h2{
+    color: rgba(0, 0, 0, 0.589);
+}
+main .center-text span{
+    font-size: 18.50px;
+    font-weight: 300;
+    padding: 25px  0;
+    display: block;
+}
+main .center-text .center-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+main .center-text .center-images h3{
+    text-align: center;
+    padding: 40px;
+    color: rgba(0, 0, 0, 0.589);
+}
+main .center-text .center-images .center-img-2 img{
+    width: 430px;
+    height: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login-page-styling */
+header .login-nav .login-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-form{
+    width: 400px;
+    margin:20px auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+#login-form h2{
+    text-align: center;
+    padding: 40px 0;
+}
+#login-form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 25px;
+}
+#login-form button{
+    width: 100%;
+    padding: 12px 0;
+    background-color: rgb(6, 160, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#login-form a{
+    text-decoration: none;
+    margin: 15px;
+    color: rgb(6, 160, 109);
+    font-weight: 400;
+}
+/* login-page-styling-end */
